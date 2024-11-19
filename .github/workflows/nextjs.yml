@@ -43,6 +43,7 @@ jobs:
             exit 0
       - name: Install dependencies
         run: |
+          ls
           cd ./frontend
           npm install
       - name: Setup Pages
