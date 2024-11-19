@@ -49,6 +49,11 @@ jobs:
         run: npm install
       - name: Build project
         run: npm run build
+      - name: Check
+        run: |
+          ls
+          cd ..
+          ls
       - name: Archive artifact
         run: |
           echo "Archiving artifact"
